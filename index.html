@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Конвертер валют</title>
+    <link rel="stylesheet" href="./coin.css">
+</head>
+<body>
+    <div class="converter">
+        <h1>Конвертер</h1>
+        <input type="number" name="usd" placeholder="Введите сумму в USD">
+        <select name="choise" onchange="convert()">
+            <option value="rub">рубли</option>
+            <option value="sum">сумы</option>
+            <option value="eu">евро</option>
+        </select>
+        <input type="text" name="result" readonly placeholder="Результат">
+    </div>
+    
+    <script src="script.js"></script> 
+</body>
+</html>
